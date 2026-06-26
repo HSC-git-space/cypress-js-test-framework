@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://the-internet.herokuapp.com",
+  "apiUrl": "https://jsonplaceholder.typicode.com",
+  "testUser": "prodsmith"
+}

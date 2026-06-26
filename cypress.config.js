@@ -1,14 +1,38 @@
 const { defineConfig } = require("cypress");
 const ExcelJS = require("exceljs");
 const path = require("path");
+const fs = require("fs");
+
+function getEnvConfig(environment) {
+    const envConfigPath = path.join(
+        __dirname,
+        "cypress/config",
+        `${environment}.json`
+    );
+    if (!fs.existsSync(envConfigPath)) {
+        throw new Error(`No config file found for environment: ${environment}`);
+    }
+    return JSON.parse(fs.readFileSync(envConfigPath, "utf8"));
+}
 
 module.exports = defineConfig({
     e2e: {
-        baseUrl: "https://the-internet.herokuapp.com",
         setupNodeEvents(on, config) {
+            const environment = config.env.environment || "qa";
+            const envConfig = getEnvConfig(environment);
+
+            config.baseUrl = envConfig.baseUrl;
+            config.env.apiUrl = envConfig.apiUrl;
+            config.env.testUser = envConfig.testUser;
+
             on("task", {
                 async readExcelUsers() {
-                    const filePath = path.join(__dirname, "cypress", "fixtures", "users-large.xlsx");
+                    const filePath = path.join(
+                        __dirname,
+                        "cypress",
+                        "fixtures",
+                        "users-large.xlsx"
+                    );
                     const workbook = new ExcelJS.Workbook();
                     await workbook.xlsx.readFile(filePath);
 
@@ -16,8 +40,7 @@ module.exports = defineConfig({
                     const users = [];
 
                     worksheet.eachRow((row, rowNumber) => {
-                        if (rowNumber === 1) return; // skip header row
-
+                        if (rowNumber === 1) return;
                         users.push({
                             id: row.getCell(1).value,
                             username: row.getCell(2).value,
@@ -31,6 +54,8 @@ module.exports = defineConfig({
                     return users;
                 },
             });
+
+            return config;
         },
     },
 });
