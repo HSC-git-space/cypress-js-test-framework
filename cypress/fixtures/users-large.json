@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "username": "priyasmith1",
+    "email": "priya.smith@mailbox.org",
+    "password": "SecurePass!350",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 2,
+    "username": "aishagarcia2",
+    "email": "aisha.garcia@example.com",
+    "password": "SecurePass!792",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 3,
+    "username": "sofiapatel3",
+    "email": "sofia.patel@webmail.io",
+    "password": "SecurePass!532",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 4,
+    "username": "sarahsmith4",
+    "email": "sarah.smith@example.com",
+    "password": "SecurePass!323",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 5,
+    "username": "aishanakamura5",
+    "email": "aisha.nakamura@webmail.io",
+    "password": "SecurePass!127",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 6,
+    "username": "sofiakim6",
+    "email": "sofia.kim@webmail.io",
+    "password": "SecurePass!529",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 7,
+    "username": "aishalopez7",
+    "email": "aisha.lopez@webmail.io",
+    "password": "SecurePass!384",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 8,
+    "username": "tommehta8",
+    "email": "tom.mehta@testmail.com",
+    "password": "SecurePass!814",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 9,
+    "username": "anikajohnson9",
+    "email": "anika.johnson@mailbox.org",
+    "password": "SecurePass!259",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 10,
+    "username": "chenmehta10",
+    "email": "chen.mehta@mailbox.org",
+    "password": "SecurePass!204",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 11,
+    "username": "rajsingh11",
+    "email": "raj.singh@example.com",
+    "password": "SecurePass!467",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 12,
+    "username": "fatimakhan12",
+    "email": "fatima.khan@mailbox.org",
+    "password": "SecurePass!926",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 13,
+    "username": "sarahandersen13",
+    "email": "sarah.andersen@corp.test",
+    "password": "SecurePass!649",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 14,
+    "username": "priyasato14",
+    "email": "priya.sato@corp.test",
+    "password": "SecurePass!180",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 15,
+    "username": "sofiamüller15",
+    "email": "sofia.müller@webmail.io",
+    "password": "SecurePass!982",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 16,
+    "username": "fatimakhan16",
+    "email": "fatima.khan@testmail.com",
+    "password": "SecurePass!821",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 17,
+    "username": "rajsmith17",
+    "email": "raj.smith@testmail.com",
+    "password": "SecurePass!891",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 18,
+    "username": "yukipatel18",
+    "email": "yuki.patel@testmail.com",
+    "password": "SecurePass!987",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 19,
+    "username": "priyasingh19",
+    "email": "priya.singh@mailbox.org",
+    "password": "SecurePass!564",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 20,
+    "username": "fatimagarcia20",
+    "email": "fatima.garcia@mailbox.org",
+    "password": "SecurePass!463",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 21,
+    "username": "chenrossi21",
+    "email": "chen.rossi@mailbox.org",
+    "password": "SecurePass!818",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 22,
+    "username": "rajkhan22",
+    "email": "raj.khan@testmail.com",
+    "password": "SecurePass!646",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 23,
+    "username": "aishagarcia23",
+    "email": "aisha.garcia@corp.test",
+    "password": "SecurePass!488",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 24,
+    "username": "liamsato24",
+    "email": "liam.sato@webmail.io",
+    "password": "SecurePass!324",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 25,
+    "username": "carlosbrown25",
+    "email": "carlos.brown@example.com",
+    "password": "SecurePass!334",
+    "category": "valid",
+    "expectedOutcome": "success"
+  },
+  {
+    "id": 26,
+    "username": "sarahmehta26",
+    "email": "sarah.mehtamailbox.org",
+    "password": "SecurePass!510",
+    "category": "malformed_email",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 27,
+    "username": "liampatel27",
+    "email": "liam.pateltestmail.com",
+    "password": "SecurePass!680",
+    "category": "malformed_email",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 28,
+    "username": "carloskim28",
+    "email": "carlos.kimcorp.test",
+    "password": "SecurePass!505",
+    "category": "malformed_email",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 29,
+    "username": "omargarcia29",
+    "email": "omar.garciamailbox.org",
+    "password": "SecurePass!242",
+    "category": "malformed_email",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 30,
+    "username": "aishaandersen30",
+    "email": "aisha.andersenwebmail.io",
+    "password": "SecurePass!651",
+    "category": "malformed_email",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 31,
+    "username": "liamandersen31",
+    "email": "liam.andersenwebmail.io",
+    "password": "SecurePass!538",
+    "category": "malformed_email",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 32,
+    "username": "kenjisingh32",
+    "email": "kenji.singhmailbox.org",
+    "password": "SecurePass!324",
+    "category": "malformed_email",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 33,
+    "username": "jamesnakamura33",
+    "email": "james.nakamuracorp.test",
+    "password": "SecurePass!193",
+    "category": "malformed_email",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 34,
+    "username": "sarahbrown34",
+    "email": "sarah.brownexample.com",
+    "password": "SecurePass!256",
+    "category": "malformed_email",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 35,
+    "username": "mariamehta35",
+    "email": "maria.mehtacorp.test",
+    "password": "SecurePass!710",
+    "category": "malformed_email",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 36,
+    "username": "rajsingh36",
+    "email": "raj.singh@corp.test",
+    "password": "ab1",
+    "category": "weak_password",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 37,
+    "username": "ravimüller37",
+    "email": "ravi.müller@webmail.io",
+    "password": "12345",
+    "category": "weak_password",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 38,
+    "username": "priyarossi38",
+    "email": "priya.rossi@webmail.io",
+    "password": "ab1",
+    "category": "weak_password",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 39,
+    "username": "carlospatel39",
+    "email": "carlos.patel@mailbox.org",
+    "password": "ab1",
+    "category": "weak_password",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 40,
+    "username": "marialopez40",
+    "email": "maria.lopez@example.com",
+    "password": "ab1",
+    "category": "weak_password",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 41,
+    "username": "ravimehta41",
+    "email": "ravi.mehta@testmail.com",
+    "password": "12345",
+    "category": "weak_password",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 42,
+    "username": "yukibrown42",
+    "email": "yuki.brown@webmail.io",
+    "password": "12345",
+    "category": "weak_password",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 43,
+    "username": "jamesjohnson43",
+    "email": "james.johnson@testmail.com",
+    "password": "12345",
+    "category": "weak_password",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 44,
+    "username": "ingridjohnson44",
+    "email": "ingrid.johnson@corp.test",
+    "password": null,
+    "category": "empty_password",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 45,
+    "username": "tompatel45",
+    "email": "tom.patel@mailbox.org",
+    "password": null,
+    "category": "empty_password",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 46,
+    "username": "yukikim46",
+    "email": "yuki.kim@example.com",
+    "password": null,
+    "category": "empty_password",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 47,
+    "username": "aishasato47",
+    "email": "aisha.sato@webmail.io",
+    "password": null,
+    "category": "empty_password",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 48,
+    "username": "  rajpatel48  ",
+    "email": "raj.patel@corp.test",
+    "password": "SecurePass!935",
+    "category": "whitespace_username",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 49,
+    "username": "  rajmehta49  ",
+    "email": "raj.mehta@webmail.io",
+    "password": "SecurePass!884",
+    "category": "whitespace_username",
+    "expectedOutcome": "failure"
+  },
+  {
+    "id": 50,
+    "username": "  jamesgarcia50  ",
+    "email": "james.garcia@corp.test",
+    "password": "SecurePass!662",
+    "category": "whitespace_username",
+    "expectedOutcome": "failure"
+  }
+]
