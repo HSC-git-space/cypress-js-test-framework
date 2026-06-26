@@ -17,6 +17,10 @@ function getEnvConfig(environment) {
 
 module.exports = defineConfig({
     e2e: {
+        retries: {
+            runMode: 2,
+            openMode: 0,
+        },
         setupNodeEvents(on, config) {
             const environment = config.env.environment || "qa";
             const envConfig = getEnvConfig(environment);

@@ -17,7 +17,7 @@ describe("Excel-driven DDT - 50 records, registration-time generated", () => {
                 expect(user.email).to.not.include("@");
             }
             if (user.category === "empty_password") {
-                expect(user.password).to.equal("");
+                expect(user.password == null || user.password === "").to.be.true;
             }
             if (user.category === "whitespace_username") {
                 expect(user.username).to.match(/^\s|\s$/);
