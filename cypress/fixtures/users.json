@@ -6,5 +6,31 @@
   "invalidUser": {
     "username": "wronguser",
     "password": "wrongpassword"
-  }
+  },
+  "loginScenarios": [
+    {
+      "scenario": "valid login",
+      "username": "tomsmith",
+      "password": "SuperSecretPassword!",
+      "expectedOutcome": "success"
+    },
+    {
+      "scenario": "invalid username",
+      "username": "wronguser",
+      "password": "SuperSecretPassword!",
+      "expectedOutcome": "failure"
+    },
+    {
+      "scenario": "invalid password",
+      "username": "tomsmith",
+      "password": "wrongpassword",
+      "expectedOutcome": "failure"
+    },
+    {
+      "scenario": "empty fields",
+      "username": "",
+      "password": "",
+      "expectedOutcome": "failure"
+    }
+  ]
 }
